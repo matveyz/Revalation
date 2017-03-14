@@ -1,0 +1,35 @@
+.header {
+    height: 175px;
+    background: white;
+}
+
+.logo {
+    font-family: Georgia;
+    margin-top: 54px;
+    margin-left: 15px;
+}
+
+.logo-info {
+	margin-left: 16px;
+}
+
+.navi {
+    margin-top: 84px;
+    margin-left: 120px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Georgia;
+    color: black;
+}
+
+li a {
+	color: black;
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+	.navi {
+		margin-top: 60px;
+	}
+
+}
